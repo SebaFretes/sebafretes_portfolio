@@ -1,0 +1,1007 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sebastian Fretes Portfolio</title>
+
+    <!-- favicon-->
+    <link rel="shortcut icon" href="./assets/images/portfolio-svgrepo-com.svg" type="image/x-icon" />
+
+    <!-- custom css link-->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+
+    <!--- google font link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  </head>
+
+  <body>
+    <!--- #MAIN-->
+
+    <main>
+      <!--- #SIDEBAR-->
+
+      <aside class="sidebar" data-sidebar>
+        <div class="sidebar-info">
+          <figure class="avatar-box">
+            <img class="avatar-box" src="./assets/images/Profile pic.jpg" alt="Sebastian Fretes" width="80" />
+          </figure>
+
+          <div class="info-content">
+            <h1 class="name" title="Sebastian Fretes">Sebastian Fretes</h1>
+
+            <p class="title">Software Developer</p>
+          </div>
+
+          <button class="info_more-btn" data-sidebar-btn>
+            <span>Show Contacts</span>
+
+            <ion-icon name="chevron-down"></ion-icon>
+          </button>
+        </div>
+
+        <div class="sidebar-info_more">
+          <div class="separator"></div>
+
+          <ul class="contacts-list">
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="mail-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Email</p>
+
+                <a href="mailto:sebafretesca@gmail.com" class="contact-link">sebafretesca@gmail.com</a>
+              </div>
+            </li>
+
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="phone-portrait-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Phone</p>
+                <a href="tel:+595972482627" class="contact-link">+595 972 482 627</a>
+              </div>
+            </li>
+
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="location-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Location</p>
+
+                <address>Asunción, Paraguay</address>
+              </div>
+            </li>
+          </ul>
+
+          <div class="separator"></div>
+
+          <ul class="social-list">
+            <li class="social-item">
+              <a href="https://www.linkedin.com/in/jsebastianfretes/" target="”_blank”" class="social-link">
+                <ion-icon name="logo-linkedin"></ion-icon>
+              </a>
+            </li>
+
+            <li class="social-item">
+              <a href="https://github.com/SebaFretes" target="”_blank”" class="social-link">
+                <ion-icon name="logo-github"></ion-icon>
+              </a>
+            </li>
+
+            <li class="social-item">
+              <a href="https://www.instagram.com/sebafretes_" target="_blank" class="social-link">
+                <ion-icon name="logo-instagram"></ion-icon>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </aside>
+
+      <!--- #main-content -->
+
+      <div class="main-content">
+        <!--- #NAVBAR -->
+
+        <nav class="navbar">
+          <ul class="navbar-list">
+            <li class="navbar-item">
+              <button class="navbar-link active" data-nav-link>About</button>
+            </li>
+
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Resume</button>
+            </li>
+
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Portfolio</button>
+            </li>
+
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Contact</button>
+            </li>
+          </ul>
+        </nav>
+
+        <!--- #ABOUT -->
+
+        <article class="about active" data-page="about">
+          <header>
+            <h2 class="h2 article-title">About me</h2>
+          </header>
+
+          <section class="about-text">
+            <p>
+            Hi! I'm Sebastian Fretes, a Full-Stack Developer based in Asunción, Paraguay. I have experience designing and developing
+            web applications, working with both Frontend and Backend technologies, as well as managing databases. I'm skilled in
+            problem-solving, adaptability, and teamwork, with a strong focus on building functional, scalable, and high-performance
+            solutions.
+            Feel free to explore some of my showcased projects and their code, check out my resume, or contact me via email. I'm a
+            native Spanish speaker and also communicate in English and Portuguese.
+            </p>
+          </section>
+
+          <!--- service-->
+
+          <section class="service">
+            <h3 class="h3 service-title">What i'm doing</h3>
+
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img src="./assets/images/icon-design.svg" alt="design icon" width="40" />
+                </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Web design</h4>
+
+                  <p class="service-item-text">The most modern and high-quality design made at a professional level.</p>
+                </div>
+              </li>
+
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40" />
+                </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Web development</h4>
+
+                  <p class="service-item-text">High-quality development of sites at the professional level.</p>
+                </div>
+              </li>
+            </ul>
+          </section>
+
+          <!--- testimonials modal-->
+
+          <div class="modal-container" data-modal-container>
+            <div class="overlay" data-overlay></div>
+
+            <section class="testimonials-modal">
+              <button class="modal-close-btn" data-modal-close-btn>
+                <ion-icon name="close-outline"></ion-icon>
+              </button>
+            </section>
+          </div>
+        </article>
+
+        <!--- RESUME ARTICLE-->
+
+        <article class="resume" data-page="resume">
+          <header>
+            <h2 class="h2 article-title">Resume</h2>
+          </header>
+
+          <!-- EDUCATION SECTION -->
+
+          <section class="timeline">
+            <!-- create a button to dowloan the cv -->
+
+            <div class="title-wrapper">
+              <a href="./assets/resume/AlvaroBLlano Resume.pdf" download="CV.pdf" class="button icon-box icon-box1">Download Resume</a>
+            </div>
+
+            <div class="title-wrapper">
+              <div class="icon-box">
+                <ion-icon name="book-outline"></ion-icon>
+              </div>
+
+              <h3 class="h3">Education</h3>
+            </div>
+
+            <ol class="timeline-list">
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">Universidad Católica</h4>
+                <p class="timeline-text timeline-item-subtitle">San Ignacio, Misiones, Paraguay.</p>
+
+                <span>2019 — 2023</span>
+
+                <p class="timeline-text">Bachelor's Degree in Computer Engineering.</p>
+                <p class="timeline-text">GPA: 4.0</p>
+              </li>
+
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">Wichita State University</h4>
+                <p class="timeline-text timeline-item-subtitle">Wichita, Kansas, USA.</p>
+
+                <span>January 2023 - May 2023</span>
+
+                <p class="timeline-text">Selected to study in the Spring semester of 2023 at WSU as an exchange student through the agreement between BECAL and the CPK.</p>
+                <p class="timeline-text">GPA: 3.9</p>
+              </li>
+            </ol>
+          </section>
+
+          <!-- WORK EXPERIENCE SECTION -->
+
+          <section class="timeline">
+            <div class="title-wrapper">
+              <div class="icon-box">
+                <img src="./assets/images/work-icon.svg" alt="skills" />
+              </div>
+
+              <h3 class="h3">Work Experience</h3>
+            </div>
+
+            <ol class="timeline-list">
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">Junior Developer</h4>
+                <p class="timeline-text timeline-item-subtitle">Software Natura, Asunción, Paraguay.</p>
+
+                <span>December 2021 - June 2022</span>
+
+                <ul>
+                  <li class="reset-item">
+                    <span> Analyze and report business operating performance and assess project profitability. </span>
+                  </li>
+                  <li class="reset-item">
+                    <span> Use of agile methodologies as a framework for organization, collaboration and management of large and diverse teams. </span>
+                  </li>
+                  <li class="reset-item">
+                    <span> Support the other team members towards the achievement of common objectives and direct coordination with potential users and clients. </span>
+                  </li>
+                  <li class="reset-item"><span> Peer code review and quality testing. </span></li>
+                </ul>
+              </li>
+            </ol>
+          </section>
+
+          <!-- SKILLS SECTION -->
+
+          <section class="timeline">
+            <div class="title-wrapper">
+              <div class="icon-box">
+                <img src="./assets/images/skill-icon.svg" alt="skills" />
+              </div>
+
+              <h3 class="h3">Skills</h3>
+            </div>
+
+            <ol class="timeline-list">
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">Frontend</h4>
+                <ul class="client-list-modify">
+                  <li>
+                    <img class="clients-item-modify" src="./assets/images/javascript_icon_213796 1.svg" alt="JavaScript" title="JavaScript" />
+                  </li>
+
+                  <li>
+                    <img class="clients-item-modify" src="./assets/images/vuejs_logo_icon.svg" alt="VueJs" title="VueJs" />
+                  </li>
+
+                  <li>
+                    <img class="clients-item-modify" src="./assets/images/html-icon.svg" alt="Html" title="Html" />
+                  </li>
+
+                  <li>
+                    <img class="clients-item-modify" src="./assets/images/css-icon.svg" alt="Css" title="Css" />
+                  </li>
+
+                  <li>
+                    <img class="clients-item-modify" src="./assets/images/sass-icon.svg" alt="Sass" title="Sass" />
+                  </li>
+
+                  <li>
+                    <img class="clients-item-modify" src="./assets/images/flutter-icon.svg" alt="Flutter" title="Flutter" />
+                  </li>
+                </ul>
+              </li>
+
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">Backend</h4>
+
+                <ul class="client-list-modify">
+                  <li>
+                    <img class="clients-item-modify" src="./assets/images/python-icon.svg" alt="Python" title="Python" />
+                  </li>
+
+                  <li>
+                    <img class="clients-item-modify" src="./assets/images/django-icon.svg" alt="Django" title="Django" />
+                  </li>
+
+                  <li>
+                    <img class="clients-item-modify" src="./assets/images/flask-icon.svg" alt="Flask" title="Flask" />
+                  </li>
+
+                  <li>
+                    <img class="clients-item-modify" src="./assets/images/c++-icon.svg" alt="C++" title="C++" />
+                  </li>
+
+                  <li>
+                    <img class="clients-item-modify" src="./assets/images/java-icon.svg" alt="Java" title="Java" />
+                  </li>
+
+                  <li>
+                    <img class="clients-item-modify" src="./assets/images/flutter-icon.svg" alt="Flutter" title="Flutter" />
+                  </li>
+
+                  <li>
+                    <img class="clients-item-modify" src="./assets/images/php-icon.svg" alt="Php" title="Php" />
+                  </li>
+                  <li>
+                    <img class="clients-item-modify" src="./assets/images/sql-icon.svg" alt="Sql" title="Sql" />
+                  </li>
+                </ul>
+              </li>
+
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">Others</h4>
+                <ul class="client-list-modify">
+                  <li>
+                    <img class="clients-item-modify" src="./assets/images/git-icon.svg" alt="Git" title="Git" />
+                  </li>
+
+                  <li>
+                    <img class="clients-item-modify" src="./assets/images/github-icon.svg" alt="GitHub" title="GitHub" />
+                  </li>
+
+                  <li>
+                    <img class="clients-item-modify" src="./assets/images/jira-icon.svg" alt="Jira" title="Jira" />
+                  </li>
+
+                  <li>
+                    <img class="clients-item-modify" src="./assets/images/bitbucket-icon.svg" alt="BitBucket" title="BitBucket" />
+                  </li>
+
+                  <li>
+                    <img class="clients-item-modify" src="./assets/images/figma-icon.svg" alt="Figma" title="Figma" />
+                  </li>
+                  <li>
+                    <img class="clients-item-modify" src="./assets/images/adobexd-icon.svg" alt="AdobeXd" title="AdobeXd" />
+                  </li>
+                  <li>
+                    <img class="clients-item-modify" src="./assets/images/photoshop-icon.svg" alt="PhotoShop" title="PhotoShop" />
+                  </li>
+                </ul>
+              </li>
+            </ol>
+          </section>
+
+          <!-- LANGUAGES SECTION -->
+
+          <section class="timeline skill">
+            <div class="title-wrapper margin-botton-tittle">
+              <div class="icon-box">
+                <img src="./assets/images/languages-icon.svg" alt="skills" />
+              </div>
+
+              <h3 class="h3">Languages</h3>
+            </div>
+
+            <ol class="timeline-list time-list-modify">
+              <li class="timeline-item skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">English</h5>
+                  <data value="80">80%</data>
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 80%"></div>
+                </div>
+              </li>
+
+              <li class="timeline-item skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">Spanish</h5>
+                  <data value="100">100%</data>
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 100%"></div>
+                </div>
+              </li>
+              <li class="timeline-item skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">Guarani</h5>
+                  <data value="20">20%</data>
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 20%"></div>
+                </div>
+              </li>
+            </ol>
+          </section>
+        </article>
+
+        <!--- #PORTFOLIO-->
+
+        <article class="portfolio" data-page="portfolio" data-view-portfolio="dataViewPortfolio">
+          <header>
+            <h2 class="h2 article-title">Portfolio</h2>
+          </header>
+
+          <section class="projects">
+            <ul class="filter-list">
+              <li class="filter-item">
+                <button class="active" data-filter-btn>All</button>
+              </li>
+
+              <li class="filter-item">
+                <button data-filter-btn>Web design</button>
+              </li>
+
+              <li class="filter-item">
+                <button data-filter-btn>Applications</button>
+              </li>
+
+              <li class="filter-item">
+                <button data-filter-btn>Web development</button>
+              </li>
+            </ul>
+
+            <div class="filter-select-box">
+              <button class="filter-select" data-select>
+                <div class="select-value" data-selecct-value>Select category</div>
+
+                <div class="select-icon">
+                  <ion-icon name="chevron-down"></ion-icon>
+                </div>
+              </button>
+
+              <ul class="select-list">
+                <li class="select-item">
+                  <button data-select-item>All</button>
+                </li>
+
+                <li class="select-item">
+                  <button data-select-item>Web design</button>
+                </li>
+
+                <li class="select-item">
+                  <button data-select-item>Applications</button>
+                </li>
+
+                <li class="select-item">
+                  <button data-select-item>Web development</button>
+                </li>
+              </ul>
+            </div>
+
+            <ul class="project-list">
+              <li class="project-item active" data-filter-item data-category="web development" data-name-id="guess-my-number">
+                <a href="#">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img src="./assets/images/guess-my-number.png" alt="guess-my-number" loading="lazy" />
+                  </figure>
+
+                  <h3 class="project-title">Guess My Number</h3>
+
+                  <p class="project-category">Web development</p>
+                </a>
+              </li>
+
+              <li class="project-item active" data-filter-item data-category="web development" data-name-id="San-juan-artists">
+                <a href="#">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img src="./assets/images/San-juan-artists .png" alt="San-juan-artists" loading="lazy" />
+                  </figure>
+
+                  <h3 class="project-title">San Juan Bautista Artists</h3>
+
+                  <p class="project-category">Web development</p>
+                </a>
+              </li>
+
+              <li class="project-item active" data-filter-item data-category="web development" data-name-id="bonnet-analytics">
+                <a href="#">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img src="./assets/images/bonnets-landing.png" alt="bonnet-analytics" loading="lazy" />
+                  </figure>
+
+                  <h3 class="project-title">Bonnet Analytics Landing Page</h3>
+
+                  <p class="project-category">Web development</p>
+                </a>
+              </li>
+
+              <li class="project-item active" data-filter-item data-category="web development" data-name-id="los-compadres">
+                <a href="#">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img src="./assets/images/los-compadres-desktop.png" alt="los-compadres" loading="lazy" />
+                  </figure>
+
+                  <h3 class="project-title">Los Compadres Landing Page</h3>
+
+                  <p class="project-category">Web development</p>
+                </a>
+              </li>
+
+              <li class="project-item active" data-filter-item data-category="web development" data-name-id="monster-slayer">
+                <a href="#">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img src="./assets/images/monster-slayer-desktop.png" alt="monster-slayer" loading="lazy" />
+                  </figure>
+
+                  <h3 class="project-title">Monster Slayer</h3>
+
+                  <p class="project-category">Web development</p>
+                </a>
+              </li>
+            </ul>
+          </section>
+        </article>
+
+        <!-- CONTENT PAGE FOR INDIVIDUALS -->
+
+        <article class="content-page" data-page-name="contentPage">
+          <header>
+            <h2 class="h2 article-title">More About</h2>
+          </header>
+
+          <!-- first section -->
+
+          <section class="hide-page" data-item-page-name="guess-my-number">
+            <h3 class="h3">Guess My Number</h3>
+            <p class="about-text more-about-text">
+              Guess My Number is a basic webpage game created to practice JavaScript concepts and improve styling skills. No frameworks were used, only the basic languages for front-end web development. The site was deployed using Netlify and a demo is available to showcase the
+              project.
+            </p>
+            <h3 class="h3">Stack</h3>
+            <ul class="client-list-modify extra-space">
+              <li>
+                <img class="clients-item-modify" src="./assets/images/javascript_icon_213796 1.svg" alt="JavaScript" title="JavaScript" />
+              </li>
+
+              <li>
+                <img class="clients-item-modify" src="./assets/images/html-icon.svg" alt="Html" title="Html" />
+              </li>
+
+              <li>
+                <img class="clients-item-modify" src="./assets/images/css-icon.svg" alt="Css" title="Css" />
+              </li>
+            </ul>
+
+            <h3 class="h3 extra-space">Preview</h3>
+
+            <ul class="blog-posts-list blog-posts-list-modify">
+              <li class="blog-post-item">
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/guess-my-number.png" alt="Design conferences in 2022" loading="lazy" />
+                </figure>
+
+                <div class="blog-content blog-content-modify">
+                  <h4 class="h4 blog-item-title">Web Version</h4>
+                  <div class="blog-meta">
+                    <p class="blog-category">Created</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-08-16">Aug 16, 2022</time>
+                  </div>
+                </div>
+              </li>
+              <li class="blog-post-item">
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/guess-my-number-mobile.png" alt="Design conferences in 2022" loading="lazy" />
+                </figure>
+
+                <div class="blog-content blog-content-modify">
+                  <h4 class="h4 blog-item-title">Mobile Version</h4>
+                  <div class="blog-meta">
+                    <p class="blog-category">Created</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-08-16">Aug 16, 2022</time>
+                  </div>
+                </div>
+              </li>
+            </ul>
+
+            <h3 class="h3 extra-space">Demo</h3>
+            <div class="title-wrapper title-pointer extra-space">
+              <div class="button icon-box icon-box1 icon-box2">
+                <a href="https://guessmynumberthegamev02.netlify.app/" target="_blank">Open Demo </a>
+                <img src="./assets/images/new-window-icon.svg" alt="new-windows" width="10" />
+              </div>
+            </div>
+          </section>
+
+          <!-- second section -->
+
+          <section class="hide-page" data-item-page-name="San-juan-artists">
+            <h3 class="h3">San Juan Bautista Artists</h3>
+            <p class="about-text more-about-text">
+              This project is a basic website focused on showcasing artists from the city of San Juan Bautista, Paraguay. The website was created using HTML and CSS, with the added bonus of incorporating Swiper JS to add dynamic functionality. The website features a list of
+              artists, as well as a gallery of their work.
+            </p>
+            <h3 class="h3">Stack</h3>
+            <ul class="client-list-modify extra-space">
+              <li>
+                <img class="clients-item-modify" src="./assets/images/javascript_icon_213796 1.svg" alt="JavaScript" title="JavaScript" />
+              </li>
+
+              <li>
+                <img class="clients-item-modify" src="./assets/images/html-icon.svg" alt="Html" title="Html" />
+              </li>
+
+              <li>
+                <img class="clients-item-modify" src="./assets/images/css-icon.svg" alt="Css" title="Css" />
+              </li>
+            </ul>
+
+            <h3 class="h3 extra-space">Preview</h3>
+
+            <ul class="blog-posts-list blog-posts-list-modify">
+              <li class="blog-post-item">
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/San-juan-artists .png" alt="San-juan-artists" loading="lazy" />
+                </figure>
+
+                <div class="blog-content blog-content-modify">
+                  <h4 class="h4 blog-item-title">Web Version</h4>
+                  <div class="blog-meta">
+                    <p class="blog-category">Created</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-01-13">Jan 13, 2022</time>
+                  </div>
+                </div>
+              </li>
+            </ul>
+
+            <h3 class="h3 extra-space">Demo</h3>
+            <div class="title-wrapper title-pointer extra-space">
+              <div class="button icon-box icon-box1 icon-box2">
+                <a href="https://artistasresaltantessanjuaninos.netlify.app/" target="_blank">Open Demo </a>
+                <img src="./assets/images/new-window-icon.svg" alt="new-window" width="10" />
+              </div>
+            </div>
+          </section>
+
+          <!-- third section -->
+
+          <section class="hide-page" data-item-page-name="bonnet-analytics">
+            <h3 class="h3">Bonnet Analytics Landing Page</h3>
+            <p class="about-text more-about-text">A basic landing page that focuses on the look and feel of the page.</p>
+            <h3 class="h3">Stack</h3>
+            <ul class="client-list-modify extra-space">
+              <li>
+                <img class="clients-item-modify" src="./assets/images/html-icon.svg" alt="Html" title="Html" />
+              </li>
+
+              <li>
+                <img class="clients-item-modify" src="./assets/images/css-icon.svg" alt="Css" title="Css" />
+              </li>
+            </ul>
+
+            <h3 class="h3 extra-space">Preview</h3>
+
+            <ul class="blog-posts-list blog-posts-list-modify">
+              <li class="blog-post-item">
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/bonnets-landing.png" alt="bonnet-analytics" loading="lazy" />
+                </figure>
+
+                <div class="blog-content blog-content-modify">
+                  <h4 class="h4 blog-item-title">Web Version</h4>
+                  <div class="blog-meta">
+                    <p class="blog-category">Created</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2021-11-16">Nov 16, 2021</time>
+                  </div>
+                </div>
+              </li>
+            </ul>
+
+            <h3 class="h3 extra-space">Demo</h3>
+            <div class="title-wrapper title-pointer extra-space">
+              <div class="button icon-box icon-box1 icon-box2">
+                <a href="https://xenodochial-montalcini-97f97a.netlify.app/" target="_blank">Open Demo </a>
+                <img src="./assets/images/new-window-icon.svg" alt="new-window" width="10" />
+              </div>
+            </div>
+          </section>
+
+          <!-- fourth section -->
+
+          <section class="hide-page" data-item-page-name="los-compadres">
+            <h3 class="h3">Los Compadres Landing Page</h3>
+            <p class="about-text more-about-text">This landing page was made with HTML, SASS, Javascript and Js libraries to show products for an business.</p>
+            <h3 class="h3">Stack</h3>
+            <ul class="client-list-modify extra-space">
+              <li>
+                <img class="clients-item-modify" src="./assets/images/javascript_icon_213796 1.svg" alt="JavaScript" title="JavaScript" />
+              </li>
+              <li>
+                <img class="clients-item-modify" src="./assets/images/html-icon.svg" alt="Html" title="Html" />
+              </li>
+
+              <li>
+                <img class="clients-item-modify" src="./assets/images/css-icon.svg" alt="Css" title="Css" />
+              </li>
+            </ul>
+
+            <h3 class="h3 extra-space">Preview</h3>
+
+            <ul class="blog-posts-list blog-posts-list-modify">
+              <li class="blog-post-item">
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/los-compadres-desktop.png" alt="los-compadres" loading="lazy" />
+                </figure>
+
+                <div class="blog-content blog-content-modify">
+                  <h4 class="h4 blog-item-title">Web Version</h4>
+                  <div class="blog-meta">
+                    <p class="blog-category">Created</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2021-12-12">Dec 12, 2021</time>
+                  </div>
+                </div>
+              </li>
+              <li class="blog-post-item">
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/los-compadres-mobile.png" alt="los-compadres" loading="lazy" />
+                </figure>
+
+                <div class="blog-content blog-content-modify">
+                  <h4 class="h4 blog-item-title">Mobile Version</h4>
+                  <div class="blog-meta">
+                    <p class="blog-category">Created</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2021-12-12">Dec 12, 2021</time>
+                  </div>
+                </div>
+              </li>
+            </ul>
+
+            <h3 class="h3 extra-space">Demo</h3>
+            <div class="title-wrapper title-pointer extra-space">
+              <div class="button icon-box icon-box1 icon-box2">
+                <a href="https://loscompadreslanding.netlify.app" target="_blank">Open Demo </a>
+                <img src="./assets/images/new-window-icon.svg" alt="new-window" width="10" />
+              </div>
+            </div>
+          </section>
+
+          <!-- fifth section -->
+
+          <section class="hide-page" data-item-page-name="monster-slayer">
+            <h3 class="h3">Monster Slayer</h3>
+            <p class="about-text more-about-text">A frontend webpage game using VueJs as a main language to give the game interactivity and for practice the framewrok along with HTML and CSS.</p>
+            <h3 class="h3">Stack</h3>
+            <ul class="client-list-modify extra-space">
+              <li>
+                <img class="clients-item-modify" src="./assets/images/javascript_icon_213796 1.svg" alt="JavaScript" title="JavaScript" />
+              </li>
+              <li>
+                <img class="clients-item-modify" src="./assets/images/vuejs_logo_icon.svg" alt="VueJs" title="VueJs" />
+              </li>
+              <li>
+                <img class="clients-item-modify" src="./assets/images/html-icon.svg" alt="Html" title="Html" />
+              </li>
+
+              <li>
+                <img class="clients-item-modify" src="./assets/images/css-icon.svg" alt="Css" title="Css" />
+              </li>
+            </ul>
+
+            <h3 class="h3 extra-space">Preview</h3>
+
+            <ul class="blog-posts-list blog-posts-list-modify">
+              <li class="blog-post-item">
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/monster-slayer-desktop.png" alt="monster-slayer" loading="lazy" />
+                </figure>
+
+                <div class="blog-content blog-content-modify">
+                  <h4 class="h4 blog-item-title">Web Version</h4>
+                  <div class="blog-meta">
+                    <p class="blog-category">Created</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2021-09-26">Sep 26, 2021</time>
+                  </div>
+                </div>
+              </li>
+              <li class="blog-post-item">
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/monster-slayer-mobile.png" alt="monster-slayer" loading="lazy" />
+                </figure>
+
+                <div class="blog-content blog-content-modify">
+                  <h4 class="h4 blog-item-title">Mobile Version</h4>
+                  <div class="blog-meta">
+                    <p class="blog-category">Created</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2021-09-26">Sep 26, 2021</time>
+                  </div>
+                </div>
+              </li>
+            </ul>
+
+            <h3 class="h3 extra-space">Demo</h3>
+            <div class="title-wrapper title-pointer extra-space">
+              <div class="button icon-box icon-box1 icon-box2">
+                <a href="https://monster-slayer-demo-vue.netlify.app/" target="_blank">Open Demo </a>
+                <img src="./assets/images/new-window-icon.svg" alt="new-window" width="10" />
+              </div>
+            </div>
+          </section>
+
+          <button data-go-back-btn="goBack" class="go-back-btn">Go back</button>
+        </article>
+
+        <!-- CERTIFICATIONS ARTICLE -->
+
+        <article class="blog" data-page="certifications">
+          <header>
+            <h2 class="h2 article-title">Certifications</h2>
+          </header>
+
+          <section class="timeline">
+            <div class="title-wrapper title-wrapper-certificate">
+              <div class="icon-box icon-box-certificate">
+                <img src="./assets/images/code-icon.svg" alt="skills" />
+              </div>
+
+              <h3 class="h3">Programming Languages</h3>
+            </div>
+
+            <ol class="timeline-list">
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title certificate-title">JavasScript (ES6+)</h4>
+
+                <div class="title-wrapper title-pointer">
+                  <div class="button icon-box icon-box1 icon-box2">
+                    <a href="./assets/certificates/CertificateOfCompletion_Learning ECMAScript 6 ES6.pdf" target="_blank">show credentials </a>
+                    <img src="./assets/images/new-window-icon.svg" alt="design icon" width="10" />
+                  </div>
+                </div>
+              </li>
+            </ol>
+
+            <div class="title-wrapper title-wrapper-certificate">
+              <div class="icon-box icon-box-certificate">
+                <img src="./assets/images/certificate-icon.svg" alt="skills" />
+              </div>
+
+              <h3 class="h3">Other Certificates</h3>
+            </div>
+
+            <ol class="timeline-list">
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title certificate-title">ReactJs</h4>
+                <div class="title-wrapper title-pointer">
+                  <div class="button icon-box icon-box1 icon-box2">
+                    <a href="./assets/certificates/CertificateOfCompletion_React.js Essential Training.pdf" target="_blank">show credentials </a>
+                    <img src="./assets/images/new-window-icon.svg" alt="design icon" width="10" />
+                  </div>
+                </div>
+              </li>
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title certificate-title">Git and GitHub</h4>
+
+                <div class="title-wrapper title-pointer">
+                  <div class="button icon-box icon-box1 icon-box2">
+                    <a href="./assets/certificates/CertificateOfCompletion_Learning Git and GitHub.pdf" target="_blank">show credentials </a>
+                    <img src="./assets/images/new-window-icon.svg" alt="design icon" width="10" />
+                  </div>
+                </div>
+              </li>
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title certificate-title">English Proficiency Certification</h4>
+
+                <div class="title-wrapper title-pointer">
+                  <div class="button icon-box icon-box1 icon-box2">
+                    <a href="./assets/certificates/English Score Certificate Alvaro Rodriguez.pdf" target="_blank">show credentials </a>
+                    <img src="./assets/images/new-window-icon.svg" alt="design icon" width="10" />
+                  </div>
+                </div>
+              </li>
+            </ol>
+          </section>
+        </article>
+
+        <!--- #CONTACT  -->
+
+        <article class="contact" data-page="contact">
+          <header>
+            <h2 class="h2 article-title">Contact</h2>
+          </header>
+
+          <section class="mapbox" data-mapbox>
+            <figure>
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7496427.443036335!2d-58.45043874999999!3d-23.447296399999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x945c083490f13d63%3A0xb3faff611d582ef3!2sParaguay!5e0!3m2!1ses-419!2spy!4v1690299332405!5m2!1ses-419!2spy"
+                width="400"
+                height="300"
+                loading="lazy"
+              ></iframe>
+            </figure>
+          </section>
+
+          <section class="contact-form">
+            <h3 class="h3 form-title">Contact Form</h3>
+
+            <form action="https://formsubmit.co/alvarollano0004@gmail.com" class="form" method="post" data-form>
+              <div class="input-wrapper">
+                <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input />
+
+                <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input />
+              </div>
+
+              <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+
+              <button class="form-btn" type="submit" data-form-btn>
+                <ion-icon name="paper-plane"></ion-icon>
+                <span>Send Message</span>
+              </button>
+            </form>
+          </section>
+        </article>
+      </div>
+    </main>
+
+    <!--
+    - custom js link
+  -->
+    <script src="./assets/js/script.js"></script>
+
+    <!--
+    - ionicon link
+  -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  </body>
+</html>
