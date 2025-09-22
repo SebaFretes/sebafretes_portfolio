@@ -991,7 +991,7 @@ main {
   height: 200px;
   border-radius: 16px;
   overflow: hidden;
-  margin-bottom: 15px;
+  margin-bottom: 2px;
 }
 
 .project-img::before {
