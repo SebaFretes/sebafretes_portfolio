@@ -118,13 +118,10 @@ for (let i = 0; i < formInputs.length; i++) {
 const navigationLinks = document.querySelectorAll('[data-nav-link]');
 const pages = document.querySelectorAll('[data-page]');
 
-console.log(navigationLinks);
-
 // add event to all nav link
 for (let i = 0; i < navigationLinks.length; i++) {
   navigationLinks[i].addEventListener('click', function () {
     for (let i = 0; i < pages.length; i++) {
-      console.log(this.innerHTML.toLowerCase());
       hideItems();
       hideMoreAboutView();
       if (this.innerHTML.toLowerCase() === pages[i].dataset.page) {
@@ -147,12 +144,9 @@ const portfolioView = document.querySelector('[data-view-portfolio]');
 
 // bringing the More about page
 const moreAboutPage = document.querySelector('[data-page-name]');
-console.log(moreAboutPage);
 
 //bringing the button go back
-
 const goBackBtn = document.querySelector('[data-go-back-btn]');
-console.log(goBackBtn);
 
 // hide more about view
 
@@ -171,7 +165,6 @@ goBackBtn.addEventListener('click', function () {
 
 individualElement.forEach((element) => {
   element.addEventListener('click', function () {
-    console.log(element.dataset.nameId);
     // desactivating the portfolio view
     portfolioView.classList.remove('active');
     moreAboutPage.classList.add('active');

@@ -6,10 +6,22 @@
   /* gradient */
 
   --bg-gradient-onyx: linear-gradient(to bottom right, hsl(240, 1%, 25%) 3%, hsl(0, 0%, 19%) 97%);
-  --bg-gradient-jet: linear-gradient(to bottom right, hsla(240, 1%, 18%, 0.251) 0%, hsla(240, 2%, 11%, 0) 100%), hsl(240, 2%, 13%);
-  --bg-gradient-yellow-1: linear-gradient(to bottom right, hsl(204, 100%, 71%) 0%, hsla(204, 100%, 69%, 0) 50%);
-  --bg-gradient-yellow-2: linear-gradient(135deg, hsla(204, 100%, 71%, 0.251) 0%, hsla(204, 100%, 68%, 0) 59.86%), hsl(240, 2%, 13%);
-  --border-gradient-onyx: linear-gradient(to bottom right, hsl(0, 0%, 25%) 0%, hsla(0, 0%, 25%, 0) 50%);
+  --bg-gradient-jet:
+    linear-gradient(to bottom right, hsla(240, 1%, 18%, 0.251) 0%, hsla(240, 2%, 11%, 0) 100%),
+    hsl(240, 2%, 13%);
+  --bg-gradient-yellow-1: linear-gradient(
+    to bottom right,
+    hsl(204, 100%, 71%) 0%,
+    hsla(204, 100%, 69%, 0) 50%
+  );
+  --bg-gradient-yellow-2:
+    linear-gradient(135deg, hsla(204, 100%, 71%, 0.251) 0%, hsla(204, 100%, 68%, 0) 59.86%),
+    hsl(240, 2%, 13%);
+  --border-gradient-onyx: linear-gradient(
+    to bottom right,
+    hsl(0, 0%, 25%) 0%,
+    hsla(0, 0%, 25%, 0) 50%
+  );
   --text-gradient-yellow: linear-gradient(to right, hsl(204, 100%, 72%), hsl(204, 100%, 68%));
 
   /* solid */
@@ -1872,7 +1884,9 @@ textarea.form-input::-webkit-resizer {
     border: 5px solid var(--smoky-black);
     background: hsla(0, 0%, 100%, 0.1);
     border-radius: 20px;
-    box-shadow: inset 1px 1px 0 hsla(0, 0%, 100%, 0.11), inset -1px -1px 0 hsla(0, 0%, 100%, 0.11);
+    box-shadow:
+      inset 1px 1px 0 hsla(0, 0%, 100%, 0.11),
+      inset -1px -1px 0 hsla(0, 0%, 100%, 0.11);
   }
 
   body::-webkit-scrollbar-thumb:hover {
@@ -1987,7 +2001,6 @@ textarea.form-input::-webkit-resizer {
     max-width: 700px;
   }
 }
-
 
 .icon-box1 {
   width: fit-content;
@@ -2123,8 +2136,6 @@ textarea.form-input::-webkit-resizer {
   font-weight: normal;
 }
 
-
-
 .title-wrapper {
   display: flex;
   justify-content: flex-start;
@@ -2136,7 +2147,6 @@ textarea.form-input::-webkit-resizer {
   align-items: center;
   gap: 5px;
 }
-
 
 .timelin3-list {
   display: grid;
@@ -2177,3 +2187,10 @@ textarea.form-input::-webkit-resizer {
   color: var(--white-2);
 }
 
+.stack-pill {
+  padding: 5px 12px;
+  border-radius: 999px;
+  border: 0.5px solid rgba(255, 255, 255, 0.4);
+  font-size: 13px;
+  color: var(--light-gray);
+}
